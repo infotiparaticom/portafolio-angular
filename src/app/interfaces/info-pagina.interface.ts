@@ -10,3 +10,10 @@ export interface InfoPagina {
     equipo_trabajo?: any[];
 }
 
+export interface Equipo {
+    frase?: string;
+    nombre?: string;
+    subtitulo?: string;
+    twitter?: string;
+    url?: string;
+}
