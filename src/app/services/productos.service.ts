@@ -22,15 +22,16 @@ export class ProductosService {
       console.log(prod);
       this.productos = prod;
       this.cargando = false;
-
-
     });
-
-
-
-
   }
 
+
+  // tslint:disable-next-line: typedef
+  getProducto(id: string) {
+
+    return this.http.get(`https://ionic-6-curso.firebaseio.com/productos/${id}.json`);
+
+  }
 
 
 
