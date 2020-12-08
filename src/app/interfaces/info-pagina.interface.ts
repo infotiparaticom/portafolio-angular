@@ -17,3 +17,10 @@ export interface Equipo {
     twitter?: string;
     url?: string;
 }
+
+export interface Producto {
+  categoria: string;
+  cod: string;
+  titulo: string;
+  url: string;
+}
