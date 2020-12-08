@@ -18,7 +18,7 @@ export class HeaderComponent implements OnInit {
   // tslint:disable-next-line: typedef
   buscarProducto(termino: string) {
 
-    if (termino.length<1) {
+    if (termino.length < 1) {
       return;
     }
 
